@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* background-color: rgba(255, 237, 78, 0.747); */
+}
+.container {
+    /* background-color: #999; */
+    width: 500px;
+    /* height: 500px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    text-align: center;
+    /* box-shadow: 0px 0px 20px rgba(0,0,0,0.5), */
+                /* 0px 0px 100px rgba(0,0,0,0.1); */
+    /* padding: 10px; */
+}
+.container h1 {
+    margin: 20px 30px;
+    text-transform: uppercase;
+    letter-spacing:8px;
+    /* text-shadow: 1px 1px 2px rgba(0,0,0,0.4); */
+}
+.container form {
+    text-align: center;
+    /* border: 4px solid red; */
+    /* overflow: hidden; */
+}
+.container label {
+    display: block;
+    margin: 10px 10px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.container input.location {
+    padding: 10px 80px;
+    margin: 35px auto;
+    transition: 0.5s;
+    outline: none;
+    border: 2px solid black;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+}
+.container input.location:focus {
+    border-radius: 10px;
+    transition: 0.5s;
+    padding: 15px 130px;
+    /* width: 100%; */
+    border: 3px solid darkblue;
+    margin: 35px auto;
+}
+.card {
+    display: block;
+    box-shadow: 1px 1px 10px black;
+    margin-top: 20px;
+    /* padding: 10px; */
+}
+div.details h5 {
+    margin: 10px;
+    font-size: 2rem;
+}
+div.details p {
+    margin: 15px;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+div.temp {
+    margin: 25px;
+    font-size: 3rem;
+}
+div.temp span {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+img.time {
+    width: 100%;
+    /* height: 300px; */
+  
+}
+
+
+/* .container img {
+    background-color: black;
+    width: 100%;
+    /* height: 50%; */
+    /* border-radius: 20px;
+ } */
+.d-none {
+    display: none;
+}
+
